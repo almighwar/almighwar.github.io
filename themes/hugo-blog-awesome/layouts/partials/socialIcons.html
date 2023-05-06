@@ -1,0 +1,6 @@
+{{- range . }}
+<a href="google.com" target="_blank" rel=""
+    title="{{ (.title | default .name) | title }}">
+    {{ partial "svgs/svgs.html" . }}
+</a>
+{{- end }}
