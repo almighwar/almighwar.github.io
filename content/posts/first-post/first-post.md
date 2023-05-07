@@ -1,5 +1,5 @@
 ---
-title: Fist Post
+title: First Post
 date: 2023-05-05
 author: almighwar
 description: the first note
