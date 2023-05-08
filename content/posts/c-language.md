@@ -1,5 +1,5 @@
 ---
-title: I do this simple projects in c lang
+title: I do this simple projects with C language
 date: 2023-05-08
 author: Almighwar
 description: i made it 
