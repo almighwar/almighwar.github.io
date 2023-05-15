@@ -102,4 +102,4 @@ tags: 'mindmap'
 
 ## Github of this mind map
 
-[Mind map][https://github.com/almighwar/Mind-map-with-minder-app]
+**[Mind map](https://github.com/almighwar/Mind-map-with-minder-app)**
