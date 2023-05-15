@@ -98,3 +98,8 @@ tags: 'mindmap'
 
       - The cause of the and files
 
+---
+
+## Github of this mind map
+
+[Mind map][https://github.com/almighwar/Mind-map-with-minder-app]
