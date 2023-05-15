@@ -6,7 +6,7 @@ description: mind map for leveling up
 tags: 'mindmap'
 ---
 
-# Level up
+## Level up
 
   - Addiction
 
