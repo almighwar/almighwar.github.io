@@ -80,7 +80,7 @@ url = "https://github.com/almighwar"
 
 [[params.socialIcons]]
 name = "twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/almighwar_"
 
 [tableOfContents]
 startLevel = 2 # ToC starts from H2
