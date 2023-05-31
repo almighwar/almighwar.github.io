@@ -10,7 +10,7 @@ tags:
 
 ## Today
 
-Today is 31st of May and  I started the journey in 22nd of April, but yesterday I slipped, however, falling to the ground doesn't mean death.
+Today is 31st of May and  I started the journey in 22nd of April when i post [I fucked up](/i/fucked/up), but yesterday I slipped, however, falling to the ground doesn't mean death.
 
 ## The acheivement 
 
