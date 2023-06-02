@@ -36,7 +36,7 @@ Now i wanna finish 90 days and the condition is "not slip more than three times"
    
 |SU|MO|TU|WE|TH|FR|SA|:heavy_check_mark:|
 |-|-|-|-|-|-|-|-|
-|29|:x:|31|01|02|03|04|:orange_circle:|
+|29|:x:|31|:x:|02|03|04|:orange_circle:|
 |05|06|07|08|09|10|11||
 |12|13|14|15|16|17|18||
 |19|20|21|22|23|24|25||
