@@ -38,9 +38,9 @@ enableEmoji = true
     url = '/posts/'
     weight = 20
   [[menu.main]]
-    pageRef="about"
-    name = 'About'
-    url = '/about/'
+    pageRef="stories"
+    name = 'Stories'
+    url = '/stories/'
     weight = 30
 
 [params]
