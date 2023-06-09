@@ -1,11 +1,10 @@
 ---
-title: No Fap
+title: No More
 author: Almighwar
 date: 2023-05-31
 description: Writte in about the jouney 
 tags:
    - taqwa
-   - no-fap
 ---
 
 ## Today
@@ -37,7 +36,7 @@ Now i wanna finish 90 days and the condition is "not slip more than three times"
 |SU|MO|TU|WE|TH|FR|SA|:heavy_check_mark:|
 |-|-|-|-|-|-|-|-|
 |29|:x:|31|:x:|02|03|04|:orange_circle:|
-|:one:|06|07|08|09|10|11|:arrows_counterclockwise:|
+|:one:|06|07|08|09|10|11|:green_circle:|
 |12|13|14|15|16|17|18||
 |19|20|21|22|23|24|25||
 |26|27|28|29|30|01|02||
