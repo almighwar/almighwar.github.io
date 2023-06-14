@@ -37,6 +37,11 @@
                     <span>|</span>
                 </li>
             </ul>
+            
+            <div class="nav_social-icons">
+        		{{- partial "socialIcons.html" site.Params.socialIcons -}}
+            </div>
+            
             <a id="mode" href="#">
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-sunny" "title" "LIGHT") . }}
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-moon" "title" "DARK") . }}

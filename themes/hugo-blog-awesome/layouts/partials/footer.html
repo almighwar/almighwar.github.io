@@ -1,12 +1,8 @@
 <footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
-
-    <div class="footer_social-icons">
-        {{- partial "socialIcons.html" site.Params.socialIcons -}}
-    </div>
     <small class="footer_copyright">
-        © {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
+        © {{ now.Format "2006" }} {{ .Site.Params.sitename }}.
         Inspired by <a href="">Hugo blog awesome</a>
     </small>
 </footer>

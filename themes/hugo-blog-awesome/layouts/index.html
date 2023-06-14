@@ -12,10 +12,10 @@
             {{/* Show last 5 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 5 $posts }}
+            {{ range first 8 $posts }}
             {{ partial "postCard" . }}
             {{ end }}
-            {{ if gt (len $posts) 5 }}
+            {{ if gt (len $posts) 8 }}
             <p>
                 <a href="/posts/">See all posts</a>
             </p>
