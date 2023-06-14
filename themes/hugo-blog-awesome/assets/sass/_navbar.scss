@@ -82,7 +82,27 @@
         }
       }
     }
-
+    // Social icon
+   .nav_social-icons {
+    padding-right: .5em;
+    a {
+      text-decoration: none;
+      margin-right: .31rem;
+      margin-left: .31rem;
+      
+    }
+    svg {
+      color: #888a90;
+      transform: translate(0, 20%);
+      height: 20px;
+      width: 20px;
+      &:hover {
+        color: rgb(221, 221, 221);
+      }
+     }
+	}
+	
+	
     .trigger {
       float: right;
       display: flex;
