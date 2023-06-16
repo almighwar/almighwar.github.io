@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="wrapper tp-tag" id="tags">
+      {{ $data := .Data }}
+      {{ range $key, $value := .Data.Terms.ByCount }}
+          {{ if ($value.Name) }}
+              <span>
+                  <a class="toc tags" href="{{ "tags/" | relURL }}{{ $value.Name | urlize }}">
+                    <b class="stong-tag">{{ $value.Name | upper }} <span>({{ $value.Count }})</span></b>
+                    
+                </a>
+              </span>
+          {{ end }}
+      {{ end }}
+</section>
+{{ end }}

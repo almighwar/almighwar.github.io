@@ -1,6 +1,12 @@
 
 <div class="author">
-    <img class="author-avatar" src="{{ .Site.Params.author.logo }}" alt="Almighwar"/>
+    {{ if .Site.Params.author.avatar }}
+        <a href="{{ .Site.Params.avatarLink }}">
+          <img class="author-avatar" alt="avatar" src="{{ "/images/avatar.png" | relURL }}" />
+        </a>
+    {{ else }}
+        <img class="author-avatar" alt="avatar" src="{{ "/images/avatar.png" | relURL }}" />
+    {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
 </div>

@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section class="wrapper tp-tag"id="archive">
+   
+    {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="group">
+            <h3 class="key">
+                {{ .Key }}
+            </h3>
+
+            {{ range .Pages }}
+                <div class="value">
+                      <a class="toc tags" href="{{ .Permalink }}">
+                          <b>{{ .Title }}</b>
+                      </a>
+            {{ end }}          
+        </div>
+
+    {{ end }}
+
+
+
+</section>
+
+
+{{ end }}
