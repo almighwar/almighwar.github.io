@@ -25,13 +25,13 @@ enableEmoji = true
     unsafe = true
 
 [menu]
-  [[menu.main]]
+  # [[menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'Home'
-    url = '/'
-    weight = 10
+    # pageRef="/"
+    # name = 'Home'
+    # url = '/'
+    # weight = 10
   [[menu.main]]
     pageRef="posts"
     name = 'Posts'
@@ -42,6 +42,11 @@ enableEmoji = true
     name = 'Stories'
     url = '/stories/'
     weight = 30
+  [[menu.main]]
+    pageRef="tags"
+    name = 'Tags'
+    url = '/tags/'
+    weight = 40
 
 [params]
   sitename = "Almighwar"
@@ -58,7 +63,6 @@ enableEmoji = true
   avatar = "favicon.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Enjoy it, Interested things"
-  name = "Almighwar"
   description = "In the end the purpose behind it matter than form, To share with people my intrested things."
 
 # Allow to override webmanifest options
