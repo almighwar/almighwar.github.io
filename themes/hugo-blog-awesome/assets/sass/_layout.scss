@@ -14,8 +14,6 @@
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
-    opacity: 1;
-    object-fit: cover;
   }
 
   .author-name {
@@ -111,6 +109,41 @@ html.light .post-item-all:hover .post-item {
   @include media-query($on-mobile) {
     margin: 0 calc(50% - 51vw);
   }
+}
+
+// Tags 
+.tp-tag {
+  margin-top: 3em !important;
+}
+.tags {
+  display: flex;
+  margin: 10px !important;
+}
+
+a.tags {
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 3px;
+}
+
+a.tags .strong-tag {
+	color: #757575;
+}
+
+// Tag Page
+
+.group .key {
+	font-size: 1.4rem;
+}
+
+.group .value a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.group .value a b:hover, .tp-tag span a b:hover {
+  color: #0174DF;
 }
 
 // Footer
@@ -258,6 +291,7 @@ kbd {
   padding: 2px 4px;
   white-space: nowrap;
 }
+
 
 mark {
   background: #ff0;
