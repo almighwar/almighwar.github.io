@@ -58,6 +58,7 @@ enableEmoji = true
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
+  summary_length = 100
 
 [params.author]
   avatar = "favicon.png" # put the file in assets folder; also ensure that image has same height and width
@@ -87,7 +88,7 @@ name = "twitter"
 url = "https://twitter.com/almighwar_"
 
 [tableOfContents]
-startLevel = 2 # ToC starts from H2
+startLevel = 1 # ToC starts from H2
 endLevel = 4 # ToC ends at H4
 ordered = false # generates <ul> instead of <ol>
 
