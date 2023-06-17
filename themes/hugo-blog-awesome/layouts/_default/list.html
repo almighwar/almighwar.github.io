@@ -1,7 +1,4 @@
 {{- define "main" -}}
-{{ $parts := split .Content "<!--more-->" }}
-{{ $summary := index $parts 0 }}
-{{ $summaryHTML := safeHTML $summary }}
 
 <div class="wrapper list-page">
     <header class="header">
