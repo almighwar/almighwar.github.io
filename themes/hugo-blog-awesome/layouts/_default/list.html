@@ -1,5 +1,8 @@
-
 {{- define "main" -}}
+{{ $parts := split .Content "<!--more-->" }}
+{{ $summary := index $parts 0 }}
+{{ $summaryHTML := safeHTML $summary }}
+
 <div class="wrapper list-page">
     <header class="header">
         <h1 class="header-title center">{{ .Title }}</h1>
@@ -16,7 +19,17 @@
         {{ partial "postCard" . }}
         
         <section class="section-post-item">
-    	{{ .Content }}
+    	{{ with .Description }}
+  		{{ $.Scratch.Set "summary" (markdownify .) }}
+		{{ else }}
+  		{{ $.Scratch.Set "summary"
+    	((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") |
+     	plainify |
+      	truncate (default 24 .Site.Params.summary_length)
+        (default " &hellip;" .Site.Params.text.truncated ) |
+      	replaceRE "&amp;" "&" | safeHTML) }}
+		{{ end }}
+		{{ $.Scratch.Get "summary" }}
 		</section>
 		
         {{ end }} {{/* end range .Pages */}}
