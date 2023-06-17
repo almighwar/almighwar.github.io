@@ -5,6 +5,8 @@ author: Almighwar
 description: i made it 
 tags: 
    - c
+   - programming
+   - simple
 ---
 
 ## Age of someone (haha)

@@ -2,8 +2,10 @@
 title: Leve-up
 date: 2023-05-15
 author: Almighwar
-description: mind map for leveling up  
-tags: 'mindmap'
+tags: 
+   - mindmap
+   - reboot
+   - level-up
 ---
 
 ## Level up

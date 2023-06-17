@@ -2,9 +2,10 @@
 title: No More
 author: Almighwar
 date: 2023-05-31
-description: Writte in about the jouney 
 tags:
    - taqwa
+   - reboot
+   - repeat
 ---
 
 ## Today

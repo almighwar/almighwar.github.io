@@ -3,7 +3,10 @@ title: I fucked up
 date: 2023-05-22
 url: /i/fucked/up
 author: lkhary
-tags: 'repeat'
+tags: 
+   - May Allah
+   - repeat
+   - reboot
 ---
 
 ## Why i fucked up
