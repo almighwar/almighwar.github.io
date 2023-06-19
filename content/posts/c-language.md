@@ -82,6 +82,8 @@ int main() {
 ## The  largest number from three numbers
 
 ```c
+#include <stdio.h>
+
 int main() {
 
     float num,num1,num2,larg;
@@ -127,3 +129,5 @@ int main() {
     return 0;
 }
 ```
+
+On github [REPO](https://github.com/almighwar/Learn-C/tree/main/SP)
