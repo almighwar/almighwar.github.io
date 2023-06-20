@@ -4,8 +4,6 @@ baseURL = '/'
 # This is what goes in <html lang="">
 languageCode = 'en-us'
 
-theme = "hugo-blog-awesome"
-
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
