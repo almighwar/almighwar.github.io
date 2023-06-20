@@ -1,4 +1,4 @@
-{{ define "partials/hugo-blog-awesome/manifest-background-color" }}
+{{ define "partials/almighwar/manifest-background-color" }}
     {{ $bg := ""}}
     {{ if isset .Site.Params.webmanifest "background_color" }}
         {{ $bg = .Site.Params.webmanifest.background_color }}
@@ -10,7 +10,7 @@
     {{ return $bg }}
 {{ end }}
 
-{{ $background_color := partial "hugo-blog-awesome/manifest-background-color" . }}
+{{ $background_color := partial "almighwar/manifest-background-color" . }}
 
 {{
     $ctx := merge (.Site.Params.webmanifest | default dict)
