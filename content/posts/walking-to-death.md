@@ -4,6 +4,8 @@ date: 2023-05-07
 author: Almighwar
 tags: 
    - level-up
+   - video
+   - youtube
 ---
 
 ## Work to death

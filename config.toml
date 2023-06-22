@@ -86,3 +86,6 @@ startLevel = 1
 endLevel = 4 
 ordered = false # generates <ul> instead of <ol>
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
