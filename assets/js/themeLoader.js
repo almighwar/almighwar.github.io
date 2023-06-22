@@ -36,3 +36,4 @@ const initTheme = (state) => {
 initTheme(getThemeState());
 
 setTimeout(() => body.classList.remove("notransition"), 75);
+

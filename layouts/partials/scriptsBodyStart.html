@@ -1,2 +1,4 @@
 {{ $script_main := resources.Get "js/themeLoader.js" | minify | fingerprint }}
+{{ $script_search := resources.Get "js/close-search.js" }}
 <script src="{{ $script_main.RelPermalink }}"></script>
+<script src="{{ $script_search.RelPermalink }}"></script>
