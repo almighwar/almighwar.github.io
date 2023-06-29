@@ -1,12 +1,11 @@
-{
-    "items" : [
-    {{ range $.Site.RegularPages -}}
-    {
-        
-        "url" : "{{ .Permalink }}",
-        "title" : "{{ .Title }}",
-        "content": {{ .Content | plainify | jsonify }},
-        
-    {{ end -}}
-    ]
-}
+[
+  {{ $post := where site.RegularPages "Type" "post" }}
+  {{ range $index, $page :=  $post }}
+      {{ if $index }},{{ end }}
+        {
+            "url": {{ $page.RelPermalink | jsonify }},
+            "title": {{ $page.Title | jsonify}},
+            "content": {{ $page.Content | jsonify }}
+        }
+    {{ end }}
+]
