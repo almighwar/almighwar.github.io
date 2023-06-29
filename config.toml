@@ -53,7 +53,6 @@ enableEmoji = true
   toc = true # set 'false' to disable table of contents
   goToTop = true # set 'false' to disable 'go to top' button
   summary_length = 100 # number of characteres of Summary below the posts
-  search = true
 
 [params.author]
   # avatar goes to 'partial/bio.html' lines 5 and 8
