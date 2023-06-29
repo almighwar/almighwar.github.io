@@ -41,18 +41,17 @@
             <div class="nav_social-icons">
         		{{- partial "socialIcons.html" site.Params.socialIcons -}}
             </div>
-      <header>
+
 		<div class="toolbox">
         {{- if or .Params.search .Site.Params.search }}
             <div id="search_tool">
                 <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
                     {{- partial "svgs/search.svg" -}}
                 </svg>
-                {{- partial "search-menu.html" -}}
             </div>
         {{ end }}
         </div>
-     </header>
+
             <a id="mode" href="#">
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-sunny" "title" "LIGHT") . }}
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-moon" "title" "DARK") . }}

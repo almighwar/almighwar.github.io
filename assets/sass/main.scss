@@ -65,7 +65,6 @@ $on-mobile: 768px;
 $on-tablet: 769px;
 $on-desktop: 1024px;
 $on-widescreen: 1152px;
-$sm_min_width: 35.5rem;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

@@ -9,3 +9,6 @@
     {{ $js := $theme | resources.Minify | resources.Fingerprint }}
     <script src="{{  $js.Permalink }}" {{ if not .Site.IsServer }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
 {{ end }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.0.2/lunr.js"></script>
+<script src="/js/search2.js"></script>
