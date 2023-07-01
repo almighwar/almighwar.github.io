@@ -31,15 +31,28 @@ Now i wanna finish 90 days and the condition is "not slip more than three times"
    
 </div>
 
-### Jun 2023
+### Jun 2023 | July
 <div id="header" align="center" style="text-align: center;">
-   
+
 |SU|MO|TU|WE|TH|FR|SA|:heavy_check_mark:|
 |-|-|-|-|-|-|-|-|
 |29|:x:|31|:x:|02|03|04|:orange_circle:|
 |:one:|06|07|08|09|10|11|:green_circle:|
-|12|13|14|15|16|17|18||
-|19|20|21|22|23|24|25||
-|26|27|28|29|30|01|02||
+|12|13|:x:|15|:x:|17|18|:orange_circle:|
+|19|20|21|22|23|24|25|:green_circle:|
+|26|27|28|29|30|01|02|:green_circle:|
 |03|04|05|06|07|08|09||
+
+### July 2023 | August
+<div id="header" align="center" style="text-align: center;">
+   
+|SU|MO|TU|WE|TH|FR|SA|:heavy_check_mark:|
+|-|-|-|-|-|-|-|-|
+|26|27|28|29|30|01|02|:green_circle:|
+|03|04|05|06|07|08|09||
+|10|11|12|13|14|15|16||
+|17|18|19|20|21|22|23||
+|24|25|26|27|28|29|30||
+|31|01|02|03|04|05|06||
+
 </div>
