@@ -14,6 +14,6 @@ Work hard, Discover facts in the world, and my words is my bond to myself
 
 Inshae allah, I'll achieve the small things, and go to the  big ones
 
-I pray to God to help me in my goal
+I pray to Allah to help me in my goal
 
 <p style="display:none;">[7 figures](https://mike-s-site-278f.thinkific.com/courses/openagency)</p>
