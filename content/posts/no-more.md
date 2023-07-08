@@ -39,11 +39,15 @@ Now i wanna finish 90 days and the condition is "not slip more than three times"
 |12|13|:x:|15|:x:|17|18|:orange_circle:|
 |19|20|21|22|23|24|25|:green_circle:|
 |26|27|28|29|30|01|02|:green_circle:|
-|03|04|05|06|07|08|09||
+|03|04|05|06|07|:x:|09|:orange_circle:|
+
+i slapped today 08/07 but I'm not quitter no matter what, I'll keep progress, that's life, surrender is  cowr death
 
 ### July 2023 | August
 <div id="header" align="center" style="text-align: center;">
-   
+
+inshaellah, I should complet the next five weekend, without any slap in my face
+
 |SU|MO|TU|WE|TH|FR|SA|:heavy_check_mark:|
 |-|-|-|-|-|-|-|-|
 |10|11|12|13|14|15|16||
