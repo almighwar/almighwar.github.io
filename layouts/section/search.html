@@ -1,10 +1,37 @@
 {{ define "main" }}
-<div class="container content">
-    <section class="post">
-        <h1 class="post-title">Search:</h1>
-        <input type="text" id="search-input" placeholder="" oninput="showSearchResults()">
-        <br />
-        <ul id="list"></ul> <!-- this list is for rendering the results -->
-    </section>
+<div id="searchbox" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
 </div>
+<script>$('#searchbox').show(0);</script>
+
+ <h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning">
+  <script>$('#fallback').hide();</script>
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  <p>
+    Searching for multiple words only shows matches that contain
+    all words.
+  </p>
+  <form action="" method="get">
+    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
+    <input type="submit" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>
+  
+  
+  <div id="search-results">
+  
+  </div>
+  </body>
+</html>
 {{end}}
